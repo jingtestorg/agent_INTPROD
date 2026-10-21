@@ -1,0 +1,10 @@
+apiVersion: solution.sap/v1
+kind: Solution
+
+metadata:
+  name: greeting-onboarding-12ace
+  version: 1.0.0
+  description: A simple AI agent that greets new employees and guides them through onboarding conversationally.
+
+assets:
+  - ref: ./assets/greeting-onboarding-agent/asset.yaml
